@@ -1,5 +1,7 @@
 # WN-articles
 
+-----
+
 ## Waarom Javascript?
 
 Javascript is overal. JavaScript is de enige script-taal op aarde die gebruikt word voor het bouwen van applicaties op elk platform wat je kan verzinnen! Tegenwoordig bevatten huishoudelijke objecten steeds meer JavaScript programmeer werk (Internet of Things). Om nog maar niet te spreken over web-applicaties, desktopapplicaties, TV applicaties, noem maar op, je kan het maken met Javascript.
@@ -22,6 +24,7 @@ Javascript is niet een taal van komen en gaan. Javascript gaat blijven. Het is o
 - http://computerworld.nl/development/83981-12-voorspellingen-over-de-toekomst-van-programmeren
 - https://dzone.com/articles/why-javascript-and-will
 
+----------
 
 ## GitHub & Git-workflow
 
@@ -186,6 +189,20 @@ Btn is is in de geval de main class, vervolgens word er ook de class btn-active 
 
 Modifiers gebruiken we om zaken met de zelfde stijlregels, maar met een klein duidelijk verschil net even iets anders te stijlen.
 
+--------
+
+## Minor Everythings Web
+
+De afgelopen maanden heb ik me bezig gehouden met de minor Web Development, onderdeel van de opleiding Communicatie & Multimedia Design op de Hoge school van Amsterdam. Het was een hele intensieve tijd waarin ik een hele boel geleerd heb. Voordat ik met deze minor begon dacht ik dat ik een aardig beeld had van het web, dit was niet het geval. Ik heb een boel nieuwe technieken geleerd, het schrijven van ES6 Javascript, structureren van code en het aanpakken van moeilijke vraagstukken.
+
+We zijn begonnen met het maken van een ‘web application from scratch’. Ook het schrijven van innovatieve CSS code was erg nuttig. Heel veel dingen die je vaak met Javascript oplost kunnen gewoon in  CSS. Na deze introductie werd het steeds interessanter. Van de verschillende browsers en hoe zij omgaan met stukken code, tot ‘Internet of Things’ waar we met gebruik van een NodeMCU data kunnen sturen naar een server. Ook het werken met socket verbindingen en het Real time web gedeelte was erg leerzaam. Al met al veel geleerd maar wat hierna?
+
+Waar zie ik mezelf werken? Wil ik freelancen of wil ik in een groot bedrijf werken? Of wil ik mijn eigen bedrijf beginnen met het maken van applicaties en websites? In de meesterproef heb ik in een team van 5 mensen 5 weken samengewerkt aan 2 verschillende producten. In deze 5 weken hebben we twee goedwerkende producten weten te realiseren. We zijn ook genomineerd om mee te doen aan de Golden Dot awards en uitgenodigd om te spreken op de Young Talent day. Dit heeft dus goed uitgepakt, een klein hecht team wat alles doet. Van design tot de code. Mij lijkt het erg leuk om zo te werken, met alle verschillende beroepsrollen die dicht met elkaar samen werken.
+
+Maar hoe blijf je nou geïnspireerd en gemotiveerd om vernieuwend te blijven? In grote bedrijven heb je altijd de senior developers met veel ervaring. Als je dit zelf het hebt, ga je dan genoeg hebben aan meetups en workshops? De kracht zit het in je constant blijven ontwikkelen. De techniek veranderd, dus jij moet veranderen. Volgend school jaar moet ik nog een afstudeerproject doen, en ik denk deze te gaan doen bij een groot bedrijf om te kijken hoe dat gaat. En hopelijk heb ik hierna een dusdanig beeld van waar ik wil werken en hoe ik wil werken. De minor Everythings Web heeft me veel geleerd maar ook laten zien dat je altijd moet blijven leren, hiermee moet je rekening houden wat betreft het kiezen van een baan.  Gelukkig heb ik nog even!
+
+---------
+
 ## Wat is node.js?
 
 JavaScript draait normaal gesproken binnen in je browser. Door middel van de V8 engine van Google kan je computer dit ook draaien. Je kan hierdoor heel veel verschillende dingen doen, die normaal gesproken gedaan werden met PHP, en dergelijken. Welkom bij Node.js server-side Javascript! Iedereen kent Javascript wel, een scripting taal die wordt gebruikt voor het maken van interactieve websites.
@@ -194,17 +211,9 @@ Wat deze V8 engine doet is eigenlijk machine-code (Een computerprogrammeertaal d
 
 Node.js is een back-end variant van de Javsacript zoals wij het kennen, voor de front end van websites.
 
-### Wat kan je er mee?
+In vacatures zie je vaak staan dat ze opzoek zijn naar een developer met node.js skills, dit wil vaak zeggen dat je kan werken met het concatenating en bundelen van files, en het aan maken en schrijven van nieuwe tasks server side. Als er gezocht word naar een Node.js engineer gaat het meer over het neerzetten van een webserver.
 
-Utilities on your machine
-
-Concatenating files, live reload, etc.
-
-Javascript developer met node.js skills = Het werken met concatenating/bundelen van files, het maken van tasks en het schrijven van client side javascript.
-
-Node.js Engineer = Het neerzetten van een webserver
-
-### How does it work?
+### Hoe werkt het?
 
 ### NPM modules
 
@@ -220,54 +229,25 @@ Dit gaat over de core van node.js. Het gaat niet om het feit dat het server side
 
 Een traditionele Webserver werkt zo:
 
-Take in a request for the blog index
-Call out to the db to get the blog articles
-Build the html containing the blog articles
-Send the response out
+- De request voor de blog posts komt binnen
+- Er word een aanvraag gedaan bij de database om de artikelen op te halen
+- De html word opgebouwd met daarin de artikelen
+- Dit word naar de client gestuurd.
 
-Wat dit betreft werkt Node.js niet anders. Onder de motorkap zit het verschil.
-
-Op het moment als de db wordt aangeroepen om de artikelen te op te halen (laten we zeggen dat dit 100ms duurt). Is de hele tread is aan het wachten op de response van de db. Dit noemen we IO heavy (input/output).
-
-Op het moment als de server de HTML aan het bouwen is van de response van de db. Dit is sneller, ongeveer 10ms, maar dit is CPU intensief.
+Wat dit betreft werkt Node.js niet anders. Onder de motorkap zit het verschil. Op het moment als de db wordt aangeroepen om de artikelen te op te halen (laten we zeggen dat dit 100ms duurt). Is de hele tread is aan het wachten op de response van de db. Dit noemen we IO heavy (input/output). Op het moment als de server de HTML aan het bouwen is van de response van de db. Dit is sneller, ongeveer 10ms, maar dit is CPU intensief.
 
 Node.js maakt gebruik van een single, event driven thread. In plaats van dat er elke keer een nieuwe tread word gecreëerd bij elke request, word er gebruik gemaakt van één enkele thread voor elke request. Bijvoorbeeld: Op het moment als je een call maakt naar een database inplaats van dat dit alles blokt totdat het gereturned is, kan je gelijk een nieuwe callback functie aanroepen als de callback klaar is.
 
 Het verschil zit hem dus niet in node.js zelf maar in de code die jij hebt geschreven die anders gebruikt word.
 
-https://dzone.com/articles/quick-introduction-how-nodejs
+- https://dzone.com/articles/quick-introduction-how-nodejs
+- https://nodejs.org/en/
 
-### How to make a basic webserver
-
-Installeer node.js
-
-Javascript is goed vanwege zijn snelheid.
-
-Node.js Features
-
-Asynchroon & Event Driven
-
-Erg snel
-
-Single Threaded maar goed schaalbaar
-
-Geen buffering
-
-Wanner node.js gebruiken?
-
-Following are the areas where Node.js is proving itself as a perfect technology partner.
-
-I/O bound Applications
-Data Streaming Applications
-Data Intensive Real-time Applications (DIRT)
-JSON APIs based Applications
-Single Page Applications
-
-Hoe gebruik je node.js
+-------
 
 ## Webpack vs. Browserify vs. npm-scripts vs. gulp
 
-Webpack en browserify doen ongeveer het zelfde, het bundelen van modules om zo gebruikt te kunnen worden in een browser. Bijvoorbeeld de Node module is een feature, deze bestaat niet in de browser en ES6 modules zijn nog helemaal niet geïmplementeerd door browsers. Dit is de reden dat we dingen bundelen.
+Webpack en browserify doen ongeveer hetzelfde, het bundelen van modules om zo gebruikt te kunnen worden in een browser. Bijvoorbeeld de Node module is een feature, deze bestaat niet in de browser en ES6 modules zijn nog helemaal niet geïmplementeerd door browsers. Dit is de reden dat we dingen bundelen.
 
 Webpack is een bundler terwijl gulp een task runner is. Zo zou je dus verwachten dat deze tools samen gebruikt worden. Inplaats van dat is er een groeiende trend om Webpack te gebruiken in plaats van Gulp.
 
@@ -278,19 +258,10 @@ Je hebt geen abstractielaag nodig om dit te beheersen dus als je met een groot t
 ### Webpack
 Webpack is meer van een conventioneel instrument. Het heeft een aantal aannames van uw workflow en uw project setup. Dit gereedschap schijnt echt als je niet veel op maat gemaakte stappen hebt en gewoon met hun stroom gaat (denk bundeling, vermenigvuldigen, transpillen, linten, enz.).
 
-
-https://webpack.github.io/
-
 ### Grunt / Gulp
 Deze takenlopers houden volgens mij een beetje midden tussen Webpack en npm scripts. Hun configuratie is veel eenvoudiger, en als je al bekend bent met de ene of de andere, is het best makkelijk om een ​​installatie aan te passen en snel aan de slag te gaan.
 
 ### Overzicht
-
-Op dit moment verkies ik voor webpakketten voor hobbyprojecten / websites, omdat ik niet over de ontwikkelingsopstelling wil denken en gewoon hun conventies gebruiken die vaak gewoon prima zijn.
-
-Bij het werken met bedrijven op een professionele basis leunt ik naar npm-scripts, omdat ik het gemakkelijker vind om andere ontwikkelaars te trekken in het beroep van het bouwen van bouwwerken en gereedschappen. Ik wil niet dat ze ontmoedigd worden, omdat ze eerst grunt / gulp / webpack moeten leren. Ook is het makkelijk om gewoon wat pakket te gebruiken, dat u niet hoeft te vertrouwen op plugins.
-
-Ik denk dat ik grunt / gulp snijd, want ik heb niet echt de middelste grond nodig, maar als ik al een project uitvoert die dat al gebruikt, zal dat prima uitkomen.
 
 Npm scripts: zeer grote projecten of veel projecten die gemeenschappelijke taken delen; Veel ontwikkelaars dragen bij aan deze projecten met verschillende achtergronden; Bedrijven die werken aan verschillende projecten;
 
@@ -298,5 +269,8 @@ Webpack: zeer eenvoudige website projecten; Snelle levertijd; Laag aantal ontwik
 
 Grunt / Gulp: eenvoudige / minder eenvoudige projecten; Voor teams die een gedeelde kennis hebben voor één van deze taaklopers; Single, one-off projecten;
 
-https://medium.com/@justusromijn/my-50-cents-about-the-webpack-vs-gulp-vs-grunt-vs-npm-scripts-discussion-b45c32dbe5f2
-http://blog.andrewray.me/webpack-when-to-use-and-why/
+Het is dus niet zo dat het één beter is dan het ander, maar vooral waarom je het gebruikt en of het het waard is om er veel moeite en tijd in te steken. Aan de hand hiervan kan je kiezen voor een taskrunner of een complete setup met Webpack. 
+
+- https://medium.com/@justusromijn/my-50-cents-about-the-webpack-vs-gulp-vs-grunt-vs-npm-scripts-discussion-b45c32dbe5f2
+- http://blog.andrewray.me/webpack-when-to-use-and-why/
+- https://webpack.github.io/
