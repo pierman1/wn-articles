@@ -2,7 +2,7 @@
 
 -----
 
-## Waarom Javascript?
+## 1. Waarom Javascript?
 
 Javascript is overal. JavaScript is de enige script-taal op aarde die gebruikt word voor het bouwen van applicaties op elk platform wat je kan verzinnen! Tegenwoordig bevatten huishoudelijke objecten steeds meer JavaScript programmeer werk (Internet of Things). Om nog maar niet te spreken over web-applicaties, desktopapplicaties, TV applicaties, noem maar op, je kan het maken met Javascript.
 
@@ -26,7 +26,7 @@ Javascript is niet een taal van komen en gaan. Javascript gaat blijven. Het is o
 
 ----------
 
-## GitHub & Git-workflow
+## 2. GitHub & Git-workflow
 
 Github is de grootste internet ‘version control repository’ en Internet hosting service van de wereld. Ook functioneert Github als een soort social media platform voor developers. Github is een systeem wat is gemaakt op Git. Git zelf is een version control system voor developers. Het verschil zit hem in dat Github een ‘web-based graphical interface’ heeft en Git niet, daarnaast is Github ook een community.
 Waarom gebruiken we GitHub?
@@ -76,7 +76,7 @@ Issues kan je inschieten voor bugs en ontbrekende features. Aan deze issue kan j
 
 Er valt veel te lezen over verschillende technieken van het werken met GitHub en Git. Wat in ieder geval zo is, is dat het ons helpt bij het structureren en controleren van ons werk. Zo kunnen we overzichtelijk zien wat we gedaan hebben, enzo hier altijd naar terug grijpen. Ook is het mogelijk om met meerdere mensen aan de zelfde code te werken. Kortom, een handige tool die we allen moeten gebruiken!
 
-## Maintainable CSS
+## 3. Maintainable CSS
 
 Het schrijven van CSS styles is belangrijk voor de visuele kant van een project/product. Soms word hier weinig tijd aan besteed, met als nadeel dat je langer doet over het onderhoud. Andere steken hier meer tijd in, waardoor je later weer sneller dingen kunt aanpassen.
 
@@ -191,7 +191,7 @@ Modifiers gebruiken we om zaken met de zelfde stijlregels, maar met een klein du
 
 --------
 
-## Minor Everythings Web
+## 4. Minor Everythings Web
 
 De afgelopen maanden heb ik me bezig gehouden met de minor Web Development, onderdeel van de opleiding Communicatie & Multimedia Design op de Hoge school van Amsterdam. Het was een hele intensieve tijd waarin ik een hele boel geleerd heb. Voordat ik met deze minor begon dacht ik dat ik een aardig beeld had van het web, dit was niet het geval. Ik heb een boel nieuwe technieken geleerd, het schrijven van ES6 Javascript, structureren van code en het aanpakken van moeilijke vraagstukken.
 
@@ -203,7 +203,7 @@ Maar hoe blijf je nou geïnspireerd en gemotiveerd om vernieuwend te blijven? In
 
 ---------
 
-## Wat is node.js?
+## 5. Wat is node.js?
 
 JavaScript draait normaal gesproken binnen in je browser. Door middel van de V8 engine van Google kan je computer dit ook draaien. Je kan hierdoor heel veel verschillende dingen doen, die normaal gesproken gedaan werden met PHP, en dergelijken. Welkom bij Node.js server-side Javascript! Iedereen kent Javascript wel, een scripting taal die wordt gebruikt voor het maken van interactieve websites.
 
@@ -245,7 +245,7 @@ Het verschil zit hem dus niet in node.js zelf maar in de code die jij hebt gesch
 
 -------
 
-## Webpack vs. Browserify vs. npm-scripts vs. gulp
+## 6. Webpack vs. Browserify vs. npm-scripts vs. gulp
 
 Webpack en browserify doen ongeveer hetzelfde, het bundelen van modules om zo gebruikt te kunnen worden in een browser. Bijvoorbeeld de Node module is een feature, deze bestaat niet in de browser en ES6 modules zijn nog helemaal niet geïmplementeerd door browsers. Dit is de reden dat we dingen bundelen.
 
@@ -269,7 +269,7 @@ Webpack: zeer eenvoudige website projecten; Snelle levertijd; Laag aantal ontwik
 
 Grunt / Gulp: eenvoudige / minder eenvoudige projecten; Voor teams die een gedeelde kennis hebben voor één van deze taaklopers; Single, one-off projecten;
 
-Het is dus niet zo dat het één beter is dan het ander, maar vooral waarom je het gebruikt en of het het waard is om er veel moeite en tijd in te steken. Aan de hand hiervan kan je kiezen voor een taskrunner of een complete setup met Webpack. 
+Het is dus niet zo dat het één beter is dan het ander, maar vooral waarom je het gebruikt en of het het waard is om er veel moeite en tijd in te steken. Aan de hand hiervan kan je kiezen voor een taskrunner of een complete setup met Webpack.
 
 - https://medium.com/@justusromijn/my-50-cents-about-the-webpack-vs-gulp-vs-grunt-vs-npm-scripts-discussion-b45c32dbe5f2
 - http://blog.andrewray.me/webpack-when-to-use-and-why/
