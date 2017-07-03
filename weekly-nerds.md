@@ -155,9 +155,18 @@ https://www.w3.org/TR/WCAG20/
 
 Het is erg goed dat we rekening houden met mensen met een beperking. Anders sluit je deze mensen compleet buiten.
 
--------
+ -----
 
-# Weekly Nerd 7
+# Weekly Nerd 8
+## Nick de Bruijn
+
+- CEO bij Lifely
+- 12e jaar begonnen met ondernemen (Pokemon kaarten online verkopen)
+
+<img src="img/wn-12.jpeg" />
+
+-------------
+# Weekly Nerd 9
 
 ## Niels Leenheer - Internet of things (IoT)
 
@@ -168,18 +177,15 @@ Niels heeft veel ervaring op het gebied van IoT.
 
  SwitchOn-SwitchOff
 
- -----
+<img src="img/wn-10.jpeg" />
 
-# Weekly Nerd 8
-
-<img src="img/wn-8.jpeg" />
-
-
-# Weekly Nerd 10
-
-<img src="img/wn-8.jpeg" />
-
-
+--------------
 # Weekly Nerd 12
+
+- blinde developer, die zich bezighoud met screen readers.
+
+- Wanneer worden ze gebruikt
+- Waarom moet je er rekeninig mee houden?
+- Waarom gebruikt men ze.
 
 <img src="img/wn-8.jpeg" />
