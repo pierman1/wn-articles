@@ -187,7 +187,20 @@ Vaak komen er veel onderdelen voor in de userinterface, de onderdelen komen vaak
 
 Btn is is in de geval de main class, vervolgens word er ook de class btn-active aan toegevoegd.
 
-Modifiers gebruiken we om zaken met de zelfde stijlregels, maar met een klein duidelijk verschil net even iets anders te stijlen.
+Modifiers gebruiken we om zaken met de zelfde stijlregels, maar met een klein duidelijk verschil net even iets anders te stijlen
+
+### Conclusie
+
+Kortom, er komt veel bij kijken bij het schrijven van goed onderhoudbare CSS. Ook hier is niet één manier die het best is, maar je moet vinden wat er bij je past. De kunst is het op delen van je code in verschillende elementen (modules), en zo veel mogelijk onafhankelijke CSS te schrijven. Hiermee kun je ervoor zorgen dat je geen problemen gaat ervaren bij het herschrijven van je CSS, of als je een stuk weg wilt doen omdat je het niet meer nodig denk te hebben.
+
+Interessant om je in te verdiepen:
+
+- BEM methode
+
+### Bronnen:
+
+- https://medium.com/simple-human/how-to-write-scalable-modular-and-maintainable-css-8411e491939f
+- https://maintainablecss.com/
 
 --------
 
@@ -207,9 +220,7 @@ Maar hoe blijf je nou geïnspireerd en gemotiveerd om vernieuwend te blijven? In
 
 JavaScript draait normaal gesproken binnen in je browser. Door middel van de V8 engine van Google kan je computer dit ook draaien. Je kan hierdoor heel veel verschillende dingen doen, die normaal gesproken gedaan werden met PHP, en dergelijken. Welkom bij Node.js server-side Javascript! Iedereen kent Javascript wel, een scripting taal die wordt gebruikt voor het maken van interactieve websites.
 
-Wat deze V8 engine doet is eigenlijk machine-code (Een computerprogrammeertaal die bestaat uit binaire instructies die een computer direct kan reageren.) genereren uit Javascript code waardoor je applicaties kunt bouwen met deze engine. Node.js maakt dus gebruik van de engine en heeft enkele extra’s toegevoegd in C++.
-
-Node.js is een back-end variant van de Javsacript zoals wij het kennen, voor de front end van websites.
+Wat deze V8 engine doet is eigenlijk machine-code (Een computerprogrammeertaal die bestaat uit binaire instructies die een computer direct kan reageren.) genereren uit Javascript code waardoor je applicaties kunt bouwen met deze engine. Node.js maakt dus gebruik van de engine en heeft enkele extra’s toegevoegd in C++. Node.js is een back-end variant van de Javsacript zoals wij het kennen, voor de front end van websites.
 
 In vacatures zie je vaak staan dat ze opzoek zijn naar een developer met node.js skills, dit wil vaak zeggen dat je kan werken met het concatenating en bundelen van files, en het aan maken en schrijven van nieuwe tasks server side. Als er gezocht word naar een Node.js engineer gaat het meer over het neerzetten van een webserver.
 
@@ -247,27 +258,25 @@ Het verschil zit hem dus niet in node.js zelf maar in de code die jij hebt gesch
 
 ## 6. Webpack vs. Browserify vs. npm-scripts vs. gulp
 
-Webpack en browserify doen ongeveer hetzelfde, het bundelen van modules om zo gebruikt te kunnen worden in een browser. Bijvoorbeeld de Node module is een feature, deze bestaat niet in de browser en ES6 modules zijn nog helemaal niet geïmplementeerd door browsers. Dit is de reden dat we dingen bundelen.
-
-Webpack is een bundler terwijl gulp een task runner is. Zo zou je dus verwachten dat deze tools samen gebruikt worden. Inplaats van dat is er een groeiende trend om Webpack te gebruiken in plaats van Gulp.
+Webpack en browserify doen ongeveer hetzelfde, het bundelen van modules om zo gebruikt te kunnen worden in een browser. Bijvoorbeeld de Node module is een feature, deze bestaat niet in de browser en ES6 modules zijn nog helemaal niet geïmplementeerd door browsers. Dit is de reden dat we dingen bundelen. Webpack is een bundler terwijl gulp een task runner is. Zo zou je dus verwachten dat deze tools samen gebruikt worden. Inplaats van dat is er een groeiende trend om Webpack te gebruiken in plaats van Gulp.
 
 ### Npm scripts
-Met NPM scripts heb je direct toegang tot alle NPM-packages, die constant aan het groeien is.
-Je hebt geen abstractielaag nodig om dit te beheersen dus als je met een groot team werkt en op veel verschillende projecten lijkt npm-scripts een mooie oplossing te zijn. De taken en configuraties zijn makkelijk samen te voegen en uitwisselbaar.
+Met NPM scripts heb je direct toegang tot alle NPM-packages, die constant aan het groeien is. Je hebt geen abstractielaag nodig om dit te beheersen dus als je met een groot team werkt en op veel verschillende projecten lijkt npm-scripts een mooie oplossing te zijn. De taken en configuraties zijn makkelijk samen te voegen en uitwisselbaar.
 
 ### Webpack
-Webpack is meer van een conventioneel instrument. Het heeft een aantal aannames van uw workflow en uw project setup. Dit gereedschap schijnt echt als je niet veel op maat gemaakte stappen hebt en gewoon met hun stroom gaat (denk bundeling, vermenigvuldigen, transpillen, linten, enz.).
+Webpack is meer van een conventioneel instrument. Het heeft een aantal aannames van je workflow en je project setup. Er is veel over Webpack te vinden, en veel configuraties (setups), waar je zo mee aan de slag kant. Het tweaken hiervan is iets minder makkelijk. Verder een prachtige tool voor van alles, denk hierbij aan bundelen, transpillen, linten etc.
+
 
 ### Grunt / Gulp
-Deze takenlopers houden volgens mij een beetje midden tussen Webpack en npm scripts. Hun configuratie is veel eenvoudiger, en als je al bekend bent met de ene of de andere, is het best makkelijk om een ​​installatie aan te passen en snel aan de slag te gaan.
+Deze taskrunners zijn een beetje de midden weg tussen Webpack en npm scripts. De configuratie setup is veel eenvoudiger, en als je al bekend bent met het ene of het andere, is het best makkelijk om een setup aan te passen en snel aan de slag te gaan.
 
 ### Overzicht
 
-Npm scripts: zeer grote projecten of veel projecten die gemeenschappelijke taken delen; Veel ontwikkelaars dragen bij aan deze projecten met verschillende achtergronden; Bedrijven die werken aan verschillende projecten;
+**Npm scripts**: zeer grote projecten of veel projecten die gemeenschappelijke taken delen. Veel ontwikkelaars dragen bij aan deze projecten met verschillende achtergronden. Bedrijven die werken aan verschillende projecten.
 
-Webpack: zeer eenvoudige website projecten; Snelle levertijd; Laag aantal ontwikkelaars;
+**Webpack**: zeer eenvoudige website projecten; Snelle levertijd; Laag aantal ontwikkelaars;
 
-Grunt / Gulp: eenvoudige / minder eenvoudige projecten; Voor teams die een gedeelde kennis hebben voor één van deze taaklopers; Single, one-off projecten;
+**Grunt / Gulp**: eenvoudige / minder eenvoudige projecten; Voor teams die een gedeelde kennis hebben voor één van deze taaklopers; Single, one-off projecten;
 
 Het is dus niet zo dat het één beter is dan het ander, maar vooral waarom je het gebruikt en of het het waard is om er veel moeite en tijd in te steken. Aan de hand hiervan kan je kiezen voor een taskrunner of een complete setup met Webpack.
 
