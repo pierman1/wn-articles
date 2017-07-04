@@ -274,9 +274,9 @@ Deze taskrunners zijn een beetje de midden weg tussen Webpack en npm scripts. De
 
 **Npm scripts**: zeer grote projecten of veel projecten die gemeenschappelijke taken delen. Veel ontwikkelaars dragen bij aan deze projecten met verschillende achtergronden. Bedrijven die werken aan verschillende projecten.
 
-**Webpack**: zeer eenvoudige website projecten; Snelle levertijd; Laag aantal ontwikkelaars;
+**Webpack**: als je een complexe Front end apllicatie gaat bouwen, met veel niet code gerelateerde zaken. Zoals CSS, afbeeldingen, fonts, SVG's. Dan is Webpack precies wat je nodig hebt.
 
-**Grunt / Gulp**: eenvoudige / minder eenvoudige projecten; Voor teams die een gedeelde kennis hebben voor één van deze taaklopers; Single, one-off projecten;
+**Grunt / Gulp**: relatief eenvoudige of minder eenvoudige projecten. Voor teams die een gedeelde kennis hebben voor één van deze taskrunners. Voor unique projecten.
 
 Het is dus niet zo dat het één beter is dan het ander, maar vooral waarom je het gebruikt en of het het waard is om er veel moeite en tijd in te steken. Aan de hand hiervan kan je kiezen voor een taskrunner of een complete setup met Webpack.
 
